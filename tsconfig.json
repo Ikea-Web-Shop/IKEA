@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "typeRoots": ["node_modules/@types"],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/components/basicComponents/modals/loginConfirmationModal/services/index.tsx",
+    "src/components/basicComponents/panelStreamStats/Components/chartStats/components/chart/index.jsx",
+    "src/components/panel/moderator/components/members/index.jsx",
+    "src/components/basicComponents/subscribeCard/index.jsx",
+    "src/components/layout/header/index.jsx"
+, "src/components/basicComponents/postDashboardList/search/index.jsx", "src/components/recipe/index.jsx", "src/components/moreRecipe/index.jsx", "src/components/moreRecipe/components/moreRecipeCard/index.jsx", "src/components/recipe/components/recipeCard/index.jsx"  ],
+  "exclude": ["node_modules"]
+}
