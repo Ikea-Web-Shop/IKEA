@@ -1,13 +1,41 @@
-import MainLayout from "./Layouts/MainLayout/MainLayout";
-import { AppProps } from "../node_modules/next/app";
-import "../styles/globals.css";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { ScrollToTop } from "./Components";
 
-function MyApp({ Component, pageProps }: AppProps) {
+import {
+  About,
+  Home,
+} from "./Pages/Main";
+
+import MainLayout from "./Layouts/MainLayout/MainLayout";
+
+
+
+
+
+function App() {
   return (
-    <MainLayout>
-      <Component {...pageProps} />
-    </MainLayout>
+    <>
+      <Router>
+      <ScrollToTop>
+        <Routes>
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          
+          </Route>
+          
+
+         
+         
+         
+           
+          
+        </Routes>
+        </ScrollToTop>
+      </Router>
+    </>
   );
 }
 
-export default MyApp;
+export default App;
