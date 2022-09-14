@@ -27,13 +27,34 @@
     "recharts": "^2.1.9",
     "typescript": "^4.6.3",
     "uuid": "^8.3.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+   
+    "@react-google-maps/api": "^2.12.0",
+ 
+    "@types/googlemaps": "^3.43.3",
+ 
+    "chart.js": "^3.8.0",
+    "country-state-city": "^3.0.1",
+   
+    "react-chartjs-2": "^4.2.0",
+ 
+    "react-google-maps": "^9.4.5",
+    "react-horizontal-datepicker": "^0.1.10",
+    "react-horizontal-strip-datepicker": "^3.0.2",
+    "react-intersection-observer": "^9.3.4",
+   
+    "swiper": "^8.2.3"
+   
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+
+
   },
   "eslintConfig": {
     "extends": [
@@ -57,15 +78,26 @@
     "autoprefixer": "^10.4.4",
     "postcss": "^8.4.12",
     "tailwindcss": "^3.0.24",
-    "eslint": "7.30.0",
-    "eslint-config-airbnb": "18.2.1",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.23.4",
-    "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-prettier": "3.4.0",
-    "eslint-plugin-react": "7.24.0",
-    "eslint-plugin-react-hooks": "4.2.0",
-    "prettier": "2.3.2"
-
-  }
+    "@types/jest": "^27.5.2",
+    "@types/js-cookie": "^3.0.2",
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@types/react-input-mask": "^2.0.4",
+    "@types/webpack-env": "^1.17.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint": "^8.20.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.7.4"
+    
+  },
+  "main": "index.js",
+  "license": "MIT"
 }
+ 

@@ -3,6 +3,7 @@
 function Newsroom(){
     return (
         <>
+    <div>Newsroom</div>
         </>
     )
 }

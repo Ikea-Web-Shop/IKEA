@@ -3,6 +3,7 @@
 function InternationalSales(){
     return (
         <>
+        <div>InternationalSales</div>
         </>
     )
 }

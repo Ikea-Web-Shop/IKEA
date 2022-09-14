@@ -3,6 +3,7 @@
 function Museum(){
     return (
         <>
+        <div>Museum</div>
         </>
     )
 }

@@ -3,6 +3,7 @@
 function LifeAtHome(){
     return (
         <>
+        <div>LifeAtHome</div>
         </>
     )
 }
