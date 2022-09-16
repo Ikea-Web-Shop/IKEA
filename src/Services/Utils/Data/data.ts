@@ -1,5 +1,6 @@
 
 import images from "../../../Importer/Importer"
+// ------------------------- start navbar data ---------------
 export const navbarItems = [
   
   {
@@ -33,4 +34,10 @@ export const navbarItems = [
     route: "/newsroom",
   },
 ];
+// -------------------------end navbar data ---------------
+
+// ------------------------- start Home page data ---------------
+
+
+// -------------------------end Home page data ---------------
 
