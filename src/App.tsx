@@ -18,7 +18,7 @@ Contact,
 
 import MainLayout from "./Layouts/MainLayout/MainLayout";
 
-
+import HomeMainLayout from "./Layouts/MainLayout/HomeMainLayout"
 
 
 
@@ -28,8 +28,16 @@ function App() {
       <Router>
       <ScrollToTop>
         <Routes>
-        <Route element={<MainLayout />}>
+        <Route element={<HomeMainLayout />}>
           <Route path="/" element={<Home />} />
+        
+
+
+
+          
+          </Route>
+        <Route element={<MainLayout />}>
+         
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
           <Route path="/behind" element={<Behind />} />
