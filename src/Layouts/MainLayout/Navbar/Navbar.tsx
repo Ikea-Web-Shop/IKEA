@@ -16,7 +16,7 @@ const Navbar = () => {
     <img src={images['Navbar/logo.png']} alt="IKEA logo" width="60" height="150" loading="lazy" />
 
     {item.map((item) => (
-            <a href={item.route} className="font-semibold text-slate-900">  {item.name}</a>
+            <a href={item.route} className="hover:underline font-semibold text-slate-900">  {item.name}</a>
             ))}
             </nav>
             </div>
