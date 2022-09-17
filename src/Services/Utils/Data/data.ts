@@ -38,6 +38,34 @@ export const navbarItems = [
 
 // ------------------------- start Home page data ---------------
 
+export const footerItems = [
+  
+  {
+    id: 1,
+    name: "International sales",
+    route: "https://about.ikea.com/en/contact/how-to-buy-ikea-products-from-a-different-country",
+  },
+  {
+    id: 2,
+    name: "About IKEA",
+    route: "https://about.ikea.com/",
+  },
+  {
+    id: 3,
+    name: "IKEA Museum",
+    route: "https://ikeamuseum.com/en/",
+  },
+  {
+    id: 4,
+    name: "Work with us",
+    route: "https://about.ikea.com/en/work-with-us",
+  },
+  {
+    id: 5,
+    name: "Ethics & Integrity",
+    route: "https://www.inter.ikea.com/how-we-do-business/ethics-and-integrity",
+  },
 
+];
 // -------------------------end Home page data ---------------
 
