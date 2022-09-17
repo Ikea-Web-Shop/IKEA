@@ -3,4 +3,7 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
+  colors:{
+    'blue' :'#0058a3'
+  }
 }
