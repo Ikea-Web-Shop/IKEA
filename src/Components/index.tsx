@@ -9,7 +9,9 @@ export { default as WorkWithUs } from "./WorkWithUs/WorkWithUs";
 export { default as Newsroom } from "./Newsroom/Newsroom";
 export { default as Sustainability } from "./Sustainability/Sustainability";
 export { default as ScrollToTop } from "./ScrollToTop/ScrollToTop";
-export { default as Contact } from "./Conatact/Contact";
+export { default as Contact } from "./Contact/Contact";
+export { default as Statement } from "./Statement/Statement";
+
 
 
 

@@ -1,8 +1,8 @@
 
 import { Outlet } from "react-router-dom";
 
-import HomeFooter from "./HomeFooter/Footer";
-import HomeNavbar from "./HomeNavbar/HomeNavbar";
+import HomeFooter from "./HomeFooter";
+import HomeNavbar from "./HomeNavbar";
 
 function HomeMainLayout() {
   return (

@@ -6,6 +6,8 @@ function Newsroom(){
     const imageData=useState(NewsroomData);
     return (
         <>
+          <div className="container bg-white h-full">
+              </div>
         {/* <p>{src}</p> */}
             {NewsroomData.map(({  src, alt, text,date,subject }) => (
            <div className="p-9">

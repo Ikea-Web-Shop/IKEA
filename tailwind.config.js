@@ -3,17 +3,20 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
     "./src/**/**/*.{js,jsx,ts,tsx}",
+  
   ],
   theme: {
     container: {
       center: true,
-      padding: {
-        DEFAULT: '0.54rem',
-        sm: '2rem',
-        lg: '1rem',
-        xl: '5rem',
-        '2xl': '6rem',
-      },
+      // backgroundColor: '#fff',
+      padding: '5rem',
+      // {
+      //   DEFAULT: '2rem',
+      //   sm: '2rem',
+      //   lg: '2rem',
+      //   xl: '2rem',
+      //   '2xl': '6rem',
+      // },
     },
     colors: {
       'blue': '#1fb6ff',
@@ -23,8 +26,9 @@ module.exports = {
       'green': '#13ce66',
       'yellow': '#ffc82c',
       'gray-dark': '#273444',
-      'gray': '#8492a6',
+      'gray1': '#ccc',
       'gray-light': '#d3dce6',
+      'white':"#fff",
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],

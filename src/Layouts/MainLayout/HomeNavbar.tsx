@@ -1,7 +1,7 @@
 import { useState } from "react";
-import HomeDrawer from "../HomeDrawer/HomeDrawer";
-import  images from "../../../Importer/Importer"
-import {navbarItems} from "../../../Services/Utils/Data/data"
+import HomeDrawer from "./HomeDrawer";
+import  images from "../../Importer/Importer"
+import {navbarItems} from "../../Services/Utils/Data/data"
 
 
 const HomeNavbar = () => {

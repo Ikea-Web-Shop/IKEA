@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import  images from "../../../Importer/Importer"
-import {navbarItems} from "../../../Services/Utils/Data/data"
+import  images from "../../Importer/Importer"
+import {navbarItems} from "../../Services/Utils/Data/data"
 
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
    
  
-<header className="w-screen p-3 bg-white shadow fixed">
+<header className="w-screen p-3 bg-white shadow ">
     <div className="flex py-3">
     <img src={images['Navbar/logo.png']} alt="IKEA logo" width="60" height="150" loading="lazy" className="flex-none px-3  w-24 -mt-1"/>
     <nav className="flex  Space evenly flex-initial w-screen ">
