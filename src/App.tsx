@@ -47,7 +47,7 @@ function App() {
           <Route path="/work-with-us" element={<WorkWithUs />} />
           <Route path="/museum" element={<Museum />} />
 
-          <Route path="/museum" element={<Museum />} />
+          <Route path="/newsroom" element={<Newsroom />} />
 
 
 

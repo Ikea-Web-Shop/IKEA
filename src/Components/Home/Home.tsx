@@ -1,9 +1,9 @@
 
 import images from "../../Importer/Importer";
-import HomeDrawer from "src/Layouts/MainLayout/HomeDrawer/HomeDrawer";
+import HomeDrawer from "../../Layouts/MainLayout/HomeDrawer/HomeDrawer";
 function Home(){
     return (
-      <div>
+      <div className="container">
 
 
           {/* <HomeDrawer /> */}

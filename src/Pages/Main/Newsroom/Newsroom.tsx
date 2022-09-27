@@ -1,9 +1,9 @@
-
+import {Newsroom as NewsroomPage} from "../../../Components"
 
 function Newsroom(){
     return (
         <>
-    <div>Newsroom</div>
+  <NewsroomPage />
         </>
     )
 }

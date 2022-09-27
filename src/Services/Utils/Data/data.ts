@@ -69,3 +69,16 @@ export const footerItems = [
 ];
 // -------------------------end Home page data ---------------
 
+// -------------------------Newsroom ----------------------------
+
+export const  NewsroomData=[
+  {
+    id:1,
+  src:`${images['Newsroom/ikea.png']}`,
+  alt:"We say Hej and welcome to the first IKEA store in Estonia",
+  text:"We say Hej and welcome to the first IKEA store in Estonia",
+  date:"25 August 2022",
+  subject:"Corporate"
+  }
+]
+

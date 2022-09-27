@@ -1,9 +1,9 @@
-
+import {About as AboutPage} from "../../../Components"
 
 function About(){
     return (
         <>
-        <div>about</div>
+     <AboutPage />
         </>
     )
 }

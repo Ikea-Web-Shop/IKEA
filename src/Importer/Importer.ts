@@ -12,8 +12,4 @@ const images = Importer(
 export default images;
 
 
-// function importer(){
 
-// }
-
-// export default importer;
