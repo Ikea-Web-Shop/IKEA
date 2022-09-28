@@ -5,7 +5,7 @@ const HomeFooter = () => {
 
   return (
     <>
-    <footer className="bg-blue-700 w-screen lg:p-3   ">
+    <footer className="bg-blue w-screen lg:p-3   ">
    <div className="p-10 justify-center flex flex-wrap text-gray-400">
    
   <a href="https://about.ikea.com/en/contact/how-to-buy-ikea-products-from-a-different-country" className="text-white hover:underline font-semibold text-slate-900"> International sales </a>

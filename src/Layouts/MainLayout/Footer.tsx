@@ -22,37 +22,19 @@ const Footer = () => {
 
   return (
     <>
-    <div className="md:mx-[80px]">
-      <div className="flex lg:flex-row flex-col lg:justify-between mb-[30px] sm:mb-[45px] mt-[100px] lg:mt-[171px]  ">
-        <div className="flex flex-col lg:items-start  items-center  ">
-        
-          <p className="flex justify-start text-center text-sm md:text-base lg:text-left mb-5 md:mb-[40px]">
-            Lorem ipsum dolor sit amet, consectetuipisicing elit,
-          </p>
-        </div>
-        <ul className="flex flex-row justify-center items-center font-medium font-inter sm:right-[120px]">
-  
-       
-        </ul>
+    <div className="bg-blackfooter w-screen p-6 flex lg:justify-between sm:justify-start lg:justify-items-center">
+      <p className="text-white ">
+      © Inter IKEA Systems B.V. 1999 - 2022
+      </p>
+      <div className="text-white">
+
+        <a  className="underline p-2" href="http://">Privacy Policy</a>
+        <a  className="underline p-2" href="http://">Cookie Policy</a>
+        <a className="underline p-2"  href="http://">Change Your Cookie Settings</a>
       </div>
-      <div className="flex md:flex-row flex-col md:mb-[10px] h-[150px] justify-around  items-center border-t-[1px] border-gray-300">
-        <p className="flex items-center justify-center font-eudoxus font-normal lg:mb-0 sm:mx-auto text-[0.8rem] sm:text-lg">
-          © 2020 Flowbase. Powered by{" "}
-          <span className="text-red-300">Webflow</span>{" "}
-        </p>
-        <div className="flex items-center justify-center md:flex-row text-[19.36px] sm:mb-[0px] mb-[40px]">
-          <span className="flex justify-center header-icon cursor-pointer">
-          
-          </span>
-          <span className="flex justify-center ml-[40px] header-icon cursor-pointer">
-           
-          </span>
-          <span className="flex justify-center ml-[40px] header-icon cursor-pointer">
-          
-          </span>
-        </div>
-      </div>
+
     </div>
+  
     </>
   );
 };
