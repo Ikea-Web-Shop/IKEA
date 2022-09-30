@@ -1,4 +1,5 @@
 
+import { Newsroom } from "src/Components";
 import images from "../../../Importer/Importer"
 // ------------------------- start navbar data ---------------
 export const navbarItems = [
@@ -79,6 +80,12 @@ export const  NewsroomData=[
   text:"We say Hej and welcome to the first IKEA store in Estonia",
   date:"25 August 2022",
   subject:"Corporate"
+  },
+  {
+    id:2,
+    text:"IKEA to lunch the OBEGRANSAD collection in collaboration with Swedish House Mafia",
+    src:`${images['Newsroom/IKEA_OBEGRANSAD_PH186271-2d265f90-card-variation-img.png']}`
   }
-]
+
+];
 
