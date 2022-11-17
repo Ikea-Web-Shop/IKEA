@@ -14,10 +14,12 @@ import {
 	Sustainability,
 	Contact,
 	Statement,
+	NotFound
 } from './Pages/Main';
 
 import {MainLayout ,
 HomeMainLayout,} from './Layouts/MainLayout'
+import HomeDrawer from './Layouts/MainLayout/HomeDrawer';
 
 function App() {
 	return (
@@ -25,16 +27,21 @@ function App() {
 			<Router>
 				<ScrollToTop>
 					<Routes>
+					<Route path='*' element={<NotFound />} />
+					<Route path='/login' element={<Login />} />
+					<Route path='/home' element={<HomeDrawer />} />
+					<Route path='/museum' element={<Museum />} />
 						<Route element={<HomeMainLayout />}>
 							<Route path='/' element={<Home />} />
 						</Route>
 						<Route element={<MainLayout />}>
 							<Route path='/about' element={<About />} />
-							<Route path='/login' element={<Login />} />
+							
+							
 							<Route path='/behind' element={<Behind />} />
 							<Route path="/international-sales" element={<InternationalSales />} />
 							<Route path='/life-at-home' element={<LifeAtHome />} />
-							<Route path='/museum' element={<Museum />} />
+						
 							<Route path='/work-with-us' element={<WorkWithUs />} />
 							<Route path='/sustainability' element={<Sustainability />} />
 							<Route path='/contact' element={<Contact />} />
