@@ -10,6 +10,8 @@ export { default as Newsroom } from "./Newsroom/Newsroom";
 export { default as Sustainability } from "./Sustainability/Sustainability";
 export { default as Contact } from "./Contact/Contact";
 export { default as Statement } from "./Statement/Statement";
+export { default as NotFound } from "./NotFound/NotFound";
+
 
 
 
