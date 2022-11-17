@@ -1,10 +1,10 @@
+import Explore from "./Components/Explore/Explore";
 
 
 function WorkWithUs(){
     return (
         <>
-          <div className="container bg-white h-full">
-              </div>
+        <Explore />
         </>
     )
 }
