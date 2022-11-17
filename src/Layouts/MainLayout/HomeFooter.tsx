@@ -6,29 +6,29 @@ const HomeFooter = () => {
   return (
     <>
     <footer className="bg-blue w-screen lg:p-3   ">
-   <div className="p-10 justify-center flex flex-wrap text-gray-400">
+   <div className="p-10 justify-center flex flex-wrap text-gray-400 text-white text-xl font-medium pb-20 pt-15">
    
-  <a href="https://about.ikea.com/en/contact/how-to-buy-ikea-products-from-a-different-country" className="text-white hover:underline font-semibold text-slate-900"> International sales </a>
+  <a href="https://about.ikea.com/en/contact/how-to-buy-ikea-products-from-a-different-country " className=" hover:underline  "> International sales </a>
   <p className="px-5 inline-block" >|</p>
-  <a href="hhttps://about.ikea.com/" className="text-white hover:underline font-semibold text-slate-900"> About IKEA </a>
+  <a href="hhttps://about.ikea.com/" className=" hover:underline  "> About IKEA </a>
   <p className="px-5 inline-block" >|</p>
-  <a href="https://ikeamuseum.com/en/" className="text-white hover:underline font-semibold text-slate-900">IKEA Museum </a>
+  <a href="https://ikeamuseum.com/en/" className=" hover:underline  ">IKEA Museum </a>
   <p className="px-5 inline-block" >|</p>
-  <a href="https://about.ikea.com/en/work-with-us" className="text-white hover:underline font-semibold text-slate-900">Work with us</a>
+  <a href="https://about.ikea.com/en/work-with-us" className=" hover:underline  ">Work with us</a>
   <p className="px-5 inline-block" >|</p>
-  <a href="https://www.inter.ikea.com/how-we-do-business/ethics-and-integrity" className="text-white hover:underline font-semibold text-slate-900"> Ethics & Integrity</a>
+  <a href="https://www.inter.ikea.com/how-we-do-business/ethics-and-integrity" className=" hover:underline  "> Ethics & Integrity</a>
   
           
    </div>
-   <div className="px-8 py-5 justify-between flex flex-wrap text-gray-200">
-  <div className="lg:w-2/5  xs:w-screen flex flex-nowrap">
-  <a href="" className=" hover:underline font-semibold text-slate-900 text-white"> Cookie information</a>
-            <p className="lg:px-5 inline-block " >|</p>
-            <a href="" className=" hover:underline font-semibold text-slate-900 text-white"> Privacy statement</a>
+   <div className="flex text-white justify-center px-8 md:px-20 xl:justify-between xl:p-0 xl:px-0 flex-col xl:flex-row  ">
+  <div className="xl:w-2/5 w-screen flex flex-nowrap">
+  <a href="" className=" hover:underline font-medium pr-4 "> Cookie information</a>
+            <p className="xl:px-5 inline-block " >|</p>
+            <a href="" className=" hover:underline font-medium  px-4"> Privacy statement</a>
 
   </div>
-  <p className="lg:w-2/5 xs:w-screen lg:mr-20">© Inter IKEA Systems B.V. 1999 - 2022</p>
-  <a href="" className="lg:pl-10  hover:underline font-semibold text-slate-900 text-white"> Co-worker login</a>
+  <p className="xl:w-2/5 w-screen py-6 lg:py-3 xl:py-0 ">© Inter IKEA Systems B.V. 1999 - 2022</p>
+  <a href="" className=" xl:w-1/6 hover:underline font-medium  "> Co-worker login</a>
 
             
    </div>
