@@ -8,7 +8,7 @@ function Drawer(){
     return (
         <>
 
-    <div className="py-6 bg-gray h-screen">
+    <div className="py-6 bg-gray h-screen absolute ">
    
     <div className="flex  flex-col ">
   
