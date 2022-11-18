@@ -20,7 +20,7 @@ import {
 import {MainLayout ,
 HomeMainLayout,} from './Layouts/MainLayout'
 import HomeDrawer from './Layouts/MainLayout/HomeDrawer';
-
+import Drawer from './Layouts/MainLayout/Drawer';
 function App() {
 	return (
 		<>
@@ -30,6 +30,8 @@ function App() {
 					<Route path='*' element={<NotFound />} />
 					<Route path='/login' element={<Login />} />
 					<Route path='/home' element={<HomeDrawer />} />
+					<Route path='/drawer' element={<Drawer />} />
+
 					<Route path='/museum' element={<Museum />} />
 						<Route element={<HomeMainLayout />}>
 							<Route path='/' element={<Home />} />
