@@ -5,7 +5,7 @@ import  images from "../../Importer/Importer"
 function HomeDrawer(){
     return(
    <>
-<div className="p-5 ">
+<div className="p-5 bg-white h-screen absolute w-screen">
    
 <img src={images['Navbar/logo2.png']} alt="IKEA logo" width="60" height="150" loading="lazy" className="flex-none px-2  w-40 mt-1"/>
     <div className="xl:w-1/4  lg:w-1/4 md:w-1/3 w-full flex flex-col text-black mt-6">
@@ -22,18 +22,20 @@ function HomeDrawer(){
     </div>
 </div>
 <div className="flex flex-col">
-   <p className="font-bold mt-12  text-base ">Other IKEA sites</p>
-   <a className=" font-normal   text-base hover:underline mt-2"><Link to="/about">About IKEA</Link></a>
-   <a  className=" font-normal   text-base hover:underline mt-2"><Link to="/museum">IKEA Museum</Link></a>
-   <a  className=" font-normal   text-base hover:underline mt-2"><Link to="">International sales</Link></a>
+   <p className="font-bold mt-12  text-2xl ">Other IKEA sites</p>
+   <a className=" font-normal   text-2xl hover:underline mt-2"><Link to="/about">About IKEA</Link></a>
+   <a  className=" font-normal   text-2xl hover:underline mt-2"><Link to="/museum">IKEA Museum</Link></a>
+   <a  className=" font-normal   text-2xl hover:underline mt-2"><Link to="/international-sales">International sales</Link></a>
+   <a  className=" font-normal   text-2xl hover:underline mt-2"><Link to="/login">Login</Link></a>
+
 
 </div>
 
 
 
 <div className="flex flex-col mt-16">
-   <a  className=" font-normal   text-base hover:underline mt-2"><Link to="">Cookie information</Link></a>
-   <a  className=" font-normal   text-base hover:underline mt-2"><Link to="">Privacy statement</Link></a>
+   <a  className=" font-normal   text-2xl hover:underline mt-2"><Link to="">Cookie information</Link></a>
+   <a  className=" font-normal   text-2xl hover:underline mt-2"><Link to="/statement">Privacy statement</Link></a>
 </div>
 </div>
 </>

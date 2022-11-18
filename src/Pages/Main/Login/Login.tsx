@@ -1,5 +1,6 @@
 
 import images from "../../../Importer/Importer";
+import { Link } from "react-router-dom"
 
 function Login(){
     return (
@@ -7,6 +8,7 @@ function Login(){
 <div className="px-10 py-8">
 
 <img src={images['Navbar/logo.png']} alt="IKEA logo" width="150" height="4" loading="lazy" />
+<a className=" "><Link to="/">Home</Link></a>
 <p className="font-normal mt-12  text-xl">Sign in with your IKEA Network ID</p>
 <form className="mb-12">
     <div className="flex flex-col">
