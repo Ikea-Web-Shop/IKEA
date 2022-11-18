@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import {CustomBreadcrumbs} from "../../../Components"
 // images
 import BannerImage from "../../../Assets/Images/InternationalSales/a-collage-of-five-images-ai2001-01-ikea-l.jpg";
 import ContentImage1 from "../../../Assets/Images/InternationalSales/a-man-setting-a-table-ai2001-02-PH156953-ikea-l.jpg";
@@ -9,24 +10,15 @@ import ContentImage5 from "../../../Assets/Images/InternationalSales/a-woman-wor
 function InternationalSales() {
   return (
     <div className="bg-white h-full">
-      <div className="w-full px-4 py-3">
-        <nav>
-          <ul className="flex align-middle">
-            <li className="mr-2 text-xs hidden lg:block">
-              <Link to="/about">About IKEA</Link>
-            </li>
-            <li className="mr-2 text-xs font-bold hidden lg:block">/</li>
-            <li className="mr-2 text-xs lg:hidden"></li>
-            <li className="mr-2 text-xs">
-              <Link to="/contact">Contact us</Link>
-            </li>
-            <li className="mr-2 text-xs font-bold hidden lg:block">/</li>
-            <li className="text-xs text-gray-500 hidden lg:block">
-              How to buy IKEA products from a different country
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <CustomBreadcrumbs 
+      link1="About IKEA"
+      link2="Contact us"
+      link3="How to buy IKEA products from a different country"
+      route1="/about"
+      route2="/contact"
+      flag={true}
+    />
+      
       <div>
         <img src={BannerImage} alt="international salse" />
       </div>

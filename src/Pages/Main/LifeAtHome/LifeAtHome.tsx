@@ -1,8 +1,18 @@
 import images from 'src/Importer/Importer';
+import {CustomBreadcrumbs} from "../../../Components"
 
 function LifeAtHome() {
 	return (
-		<div className='w-full pt-32'>
+		<>
+			 <CustomBreadcrumbs 
+      link1="About IKEA"
+      link2="Life at home"
+      link3=""
+      route1="/about"
+      route2="/life-at-home"
+      flag={false}
+    />
+	<div className='w-full pt-32'>
 			<div className='m-auto w-full xl:w-2/3 mb-12 p-4 xl:p-0'>
 				<h1 className='text-4xl sm:text-5xl font-bold mb-6'>
 					Creating a better life at home
@@ -154,6 +164,7 @@ function LifeAtHome() {
 				</div>
 			</div>
 		</div>
+		</>
 	);
 }
 
