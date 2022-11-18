@@ -1,7 +1,17 @@
 import {WorkWithUs as WorkWithUsPage} from "../../../Components"
+import {CustomBreadcrumbs} from "../../../Components"
+
 function WorkWithUs(){
     return (
         <>
+         <CustomBreadcrumbs 
+      link1="About IKEA"
+      link2="Work with us"
+      link3=""
+      route1="/about"
+      route2="/work-with-us"
+      flag={false}
+    />
           <div className="container">
 <p className="font-bold mt-12  text-5xl">Do you see a career at IKEA? We do!</p>
 <p className="font-normal mt-12  text-xl">Our vision is to create a better everyday life for the many people. We believe we can make a big difference for people with big dreams and thin wallets, and we want to do it within the limits of our planet. This ambition challenges us to be part of making sustainable home solutions affordable and accessible to millions of people around the world.​</p>
