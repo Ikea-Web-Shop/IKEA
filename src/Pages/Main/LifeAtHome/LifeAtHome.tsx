@@ -157,7 +157,7 @@ function LifeAtHome() {
 							src='https://gbl-sc9u2-prd-cdn.azureedge.net/-/media/aboutikea/images/life-at-home/five-democratic-design-principles-ai05-04-px104231-ikea-l.jpg?rev=e178460d10c54b7d8fc61384f0e083e2'
 							alt=''
 						/>
-						<p className='text-gray-600 lg:text-sm lg:text-xl text-2xl mt-2'>
+						<p className='text-gray-600  lg:text-xl text-2xl mt-2'>
 							The five dimensions of Democratic Design.
 						</p>
 					</div>
