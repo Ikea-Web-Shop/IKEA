@@ -27,6 +27,8 @@ function HomeDrawer(){
    <a  className=" font-normal   text-2xl hover:underline mt-2"><Link to="/museum">IKEA Museum</Link></a>
    <a  className=" font-normal   text-2xl hover:underline mt-2"><Link to="/international-sales">International sales</Link></a>
    <a  className=" font-normal   text-2xl hover:underline mt-2"><Link to="/login">Login</Link></a>
+   <a  className=" font-normal   text-2xl hover:underline mt-2"><Link to="/contact"> Contact us</Link></a>
+
 
 
 </div>
