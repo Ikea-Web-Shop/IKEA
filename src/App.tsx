@@ -19,7 +19,7 @@ import {
 
 import {MainLayout ,
 HomeMainLayout,} from './Layouts/MainLayout'
-import HomeDrawer from './Layouts/MainLayout/HomeDrawer';
+import {UserLayout,UserPanel} from "./Layouts/UserLayout"
 
 function App() {
 	return (
@@ -35,6 +35,9 @@ function App() {
 					<Route path='/museum' element={<Museum />} />
 						<Route element={<HomeMainLayout />}>
 							<Route path='/' element={<Home />} />
+						</Route>
+						<Route element={<UserLayout />}>
+							<Route path='/user-panel' element={<UserPanel />} />
 						</Route>
 						<Route element={<MainLayout />}>
 							<Route path='/about' element={<About />} />
