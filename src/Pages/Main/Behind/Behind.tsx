@@ -1,6 +1,6 @@
 import {CustomBreadcrumbs} from "../../../Components"
 
-
+import {Behind as BehindPage} from "../../../Components"
 function Behind(){
     return (
         <>
@@ -13,6 +13,7 @@ function Behind(){
       route2="/behind"
       flag={false}
     />
+    <BehindPage />
         </>
     )
 }

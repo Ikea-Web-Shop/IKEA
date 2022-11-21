@@ -36,11 +36,12 @@ const Topics=[
     text:"Social entrepreneurship",
 }
 ]
-function NewsroomTopics(){
+function BehindTopics(){
    
     return (
         <>
-        <p className="font-bold mt-12  text-xl">Topics</p>
+     <div className="container mb-16">
+     <p className="font-bold mt-12  text-xl">Topics</p>
           <div className="flex flex-wrap">
 
 {Topics.map((label) => (
@@ -51,9 +52,10 @@ function NewsroomTopics(){
             ))}
           </div>
              
+     </div>
 
         </>
     )
 }
 
-export default NewsroomTopics;
+export default BehindTopics;
