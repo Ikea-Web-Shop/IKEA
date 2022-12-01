@@ -11,9 +11,15 @@ function Home(){
 
 
 
-<div className="flex flex-col xl:flex-row lg:flex-row md:flex-row justify-between gap-6 xl:h-500 lg:h-500 md:h-500">
-<img src={images['Home/Linus_startpage.png']} className="rounded-lg w-screen xl:w-2/3 lg:w-2/3 md:w-2/3 "alt="" loading="lazy"/>
-<div className="xl:w-1/3  lg:w-1/3 md:w-1/3 w-screen flex flex-col text-black ">
+<div className="flex flex-col xl:flex-row lg:flex-row md:flex-row justify-between gap-6  lg:h-500 md:h-500">
+<div className="xl:w-2/3 lg:w-2/3 md:w-2/3 lg:h-500 relative">
+<img src={images['Home/Linus_startpage.png']} className="rounded-lg w-full h-full  "alt="" loading="lazy"/>
+<div className="text-white py-6 absolute lg:top-96 top-80">
+<p className="font-bold">Inspiring homes</p>
+<p className="font-bold text-3xl">A student starting small in the city</p>
+</div>
+</div>
+<div className="xl:w-1/3  lg:w-1/3 md:w-1/3 w-full flex flex-col text-black ">
     
 <div className="flex   justify-center border-b-1 rounded-t-lg border-borderColor items-center bg-yellow text-2xl font-extrabold  h-96">Go shopping</div>
 
@@ -32,6 +38,7 @@ function Home(){
 {item.map((item) => (
  
         <ImageBox
+        id={item.id}
     title={item.title}
     text={item.text}
     image={item.image}
@@ -41,11 +48,11 @@ function Home(){
 ))}
 </div>
 
-<div className="flex flex-col text-center ">
+<div className="flex flex-col text-center mt-24">
 <p className="text-2xl font-bold mb-8 text-slate-900 px-50">A world of inspiration for your home</p>
 <div className="flex justify-center bg-red-200"><img src={images['Navbar/logo.png']} alt="IKEA logo" width="159" height="6" loading="lazy" className=" px-3   "/></div>
 </div>
-<img src={images['Home/footer_svg.jpg']}width="auto" height="18.75em" className="lg:w-screen rounded-lg -mb-12"alt="" loading="lazy"/> 
+<img src={images['Home/footer_svg.jpg']} className="w-screen rounded-lg h-[200px]"alt="" /> 
 
 </div> 
      </>
