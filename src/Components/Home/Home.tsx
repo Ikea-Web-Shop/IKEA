@@ -1,7 +1,10 @@
 
 import images from "../../Importer/Importer";
-
+import { useState } from "react";
+import {ImageBoxData} from "./data"
+import ImageBox from "./Components/ImageBox";
 function Home(){
+    const [item] = useState(ImageBoxData);
     return (
      <>
       <div className="mt-10 px-8"> 
@@ -25,20 +28,19 @@ function Home(){
 </div>
 </div>
 
+<div className="flex flex-wrap justify-between">
+{item.map((item) => (
+ 
+        <ImageBox
+    title={item.title}
+    text={item.text}
+    image={item.image}
+    
+    />
 
-{/* <div className="grid grid-flow-col grid-rows-1 grid-cols-2 gap-6 ">
-<video 
-src="../../../Assets/Images/Home/festivalstart_3c19f9ed76.mp4"
-preload="auto" className="svelte-1xl8vw"  
-></video>
-<img src={images['Home/KASEBERGAavif.png']}className="rounded-lg w-screen"alt="" loading="lazy"/>
+))}
 </div>
 
-
-<div className="grid grid-flow-col grid-rows-1 grid-cols-2 gap-6 bg-blue">
-<img src={images['Home/Hagberg_start.png']} className="w-screen rounded-lg"alt="" loading="lazy"/>
-<img src={images['Home/Press_image.png']}className="w-screen rounded-lg"alt="" loading="lazy"/>
-</div> */}
 <div className="flex flex-col text-center ">
 <p className="text-2xl font-bold mb-8 text-slate-900 px-50">A world of inspiration for your home</p>
 <div className="flex justify-center bg-red-200"><img src={images['Navbar/logo.png']} alt="IKEA logo" width="159" height="6" loading="lazy" className=" px-3   "/></div>
