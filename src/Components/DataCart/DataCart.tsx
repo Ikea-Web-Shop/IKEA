@@ -2,6 +2,8 @@
 
 
 interface info {
+    subject:string;
+    data:string;
   
     title : string;
     src: string;
@@ -10,18 +12,22 @@ interface info {
  
    }
 
-export const Cart=(props:info)=>{
+export const DataCart=(props:info)=>{
     return (
         <>
       
 	
-					<div className='w-full     '>
+					<div className='w-full    '>
 						<img
 							src={props.src}
-							alt='cart'
-							className='w-auto'
+							alt='Datacart'
+							className='w-full'
 						/>
-						<div className='p-6 bg-gray '>
+						<div className='p-6 bg-gray h-full'>
+                            <div className="flex">
+                                <p>{props.subject}</p>
+                                <p>{props.data}</p>
+                            </div>
 							<h2 className='text-2xl	font-bold mb-6'>{props.title}</h2>
 						
 							<button className='bg-black w-10 h-10 rounded-full flex items-center justify-center mt-12'>
