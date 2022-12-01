@@ -1,12 +1,12 @@
-import { useState } from "react";
-import HomeDrawer from "./HomeDrawer";
+
+
 import  images from "../../Importer/Importer"
-import {navbarItems} from "../../Services/Utils/Data/data"
+
 
 
 const HomeNavbar = () => {
  
-  const [showModal,setShowModal]=useState(false)
+
 
   return (
    <>

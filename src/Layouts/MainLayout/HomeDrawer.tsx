@@ -12,7 +12,7 @@ function HomeDrawer(){
           <div className="relative">
             {!showModal ? (
               <button
-                className="close"
+                className="Homeclose"
                 type="button"
                 onClick={() => setShowModal(true)}
               >
@@ -36,7 +36,7 @@ function HomeDrawer(){
             )}
             {showModal ? (
               <button
-                className="close z-50"
+                className="Homeclose z-50"
                 type="button"
                 onClick={() => setShowModal(false)}
               >
@@ -61,7 +61,7 @@ function HomeDrawer(){
           </div>
      
           {showModal ?
-<div className="modal">
+<div className="Homemodal">
 <div className="p-5 bg-white shadow overflow-x-hidden absolute lg:w-2/6 w-full  h-full">
    
    <img src={images['Navbar/logo2.png']} alt="IKEA logo" width="60" height="150" loading="lazy" className="flex-none px-2  w-40 mt-1"/>
