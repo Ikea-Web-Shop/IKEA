@@ -1,11 +1,11 @@
 
 
 interface info {
+	subject:string;
+    data:string;
+  text:string
     title : string;
-  
-    text : string;
     src: string;
-    
    
  
    }
@@ -14,7 +14,7 @@ export const ScreenCart=(props:info)=>{
     return (
         <>
       
-<p className="font-bold my-8  text-3xl">{props.title}</p>
+<p className="font-bold my-8  text-4xl ">{props.title}</p>
 	
 					<div className='flex    lg:flex-row md:flex-row flex-col  '>
 						<img
@@ -23,6 +23,10 @@ export const ScreenCart=(props:info)=>{
 							className='lg:w-2/3 md:w-2/3'
 						/>
 						<div className='p-6 bg-gray lg:w-1/3 md:w-1/3'>
+						<div className="flex ">
+                                <p>{props.subject}</p>
+                                <p className="pl-4">{props.data}</p>
+                            </div>
 							<a className='text-2xl	font-bold mb-6 hover:underline'>{props.text}</a>
 						
 							<button className='bg-black w-14 h-14 rounded-full flex items-center justify-center mt-48'>

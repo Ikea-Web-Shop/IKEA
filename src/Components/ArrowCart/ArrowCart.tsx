@@ -10,7 +10,7 @@ interface info {
  
    }
 
-export const Cart=(props:info)=>{
+export const ArrowCart=(props:info)=>{
     return (
         <>
       
@@ -18,16 +18,17 @@ export const Cart=(props:info)=>{
 					<div className='w-full     '>
 						<img
 							src={props.src}
-							alt='cart'
+							alt='Arrowcart'
 							className='w-full'
 						/>
-						<div className='p-6 bg-gray '>
-							<h2 className='text-2xl	font-bold mb-6'>{props.title}</h2>
+						<div className='py-12 pb-6 px-6 bg-gray '>
+							<h2 className='text-2xl	font-bold mt-6 mb-1 hover:underline'>{props.title}</h2>
 						
-							<button className='bg-black w-10 h-10 rounded-full flex items-center justify-center mt-12'>
-								<svg className='fill-white w-6 h-6' viewBox='0 0 24 24'>
-									<path d='M19.2937 12.7074L20.0008 12.0003L19.2938 11.2932L12.0008 3.99927L10.5865 5.41339L16.1727 11.0003H4V13.0003H16.1723L10.5855 18.5868L11.9996 20.0011L19.2937 12.7074Z'></path>
-								</svg>
+							<button className=' w-10 h-10  flex items-center justify-center '>
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+</svg>
+
 							</button>
 						</div>
 					</div>
