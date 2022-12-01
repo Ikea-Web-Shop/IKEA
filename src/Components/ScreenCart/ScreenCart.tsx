@@ -20,9 +20,9 @@ export const ScreenCart=(props:info)=>{
 						<img
 							src={props.src}
 							alt='ScreenCart'
-							className='lg:w-2/3 md:w-2/3'
+							className='lg:w-2/3 '
 						/>
-						<div className='p-6 bg-gray lg:w-1/3 md:w-1/3'>
+						<div className='p-6 bg-gray lg:w-1/3'>
 						<div className="flex ">
                                 <p>{props.subject}</p>
                                 <p className="pl-4">{props.data}</p>

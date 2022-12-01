@@ -2,14 +2,46 @@ import Ambitions from "./Components/Ambitions/Ambitions";
 import Report from "./Components/Report/Report";
 import Transforming from "./Components/Transforming/Transforming";
 import Building from "./Components/Building/Building";
+import images from "src/Importer/Importer";
 function Sustainability(){
     return (
         <>
-        
-         <div className="container">
-         <Ambitions />
+    
+         <div className="container ">
+    <div className="container">
+    <div className="lg:flex lg:justify-center lg:items-center w-full ">
+       <Ambitions />
+       </div>
               <Report />
-              <p className="my-20 font-light   text-4xl">
+    </div>
+             
+         </div>
+{/* ******************************** */}
+
+<div className="bg-gray w-full my-10 py-10">
+    <div className="container ">
+    <div className="flex container justify-between  gap-6 lg:flex-row flex-col ">
+    <img src={images['Sustainability/1.png']} 
+    alt="A man and woman are preparing healthy food in a white, sunlit kitchen. They are both laughing"  className="lg:w-1/2  w-full" />
+    <div className=" p-6 bg-gray lg:w-1/2 ">
+        <div className=" ">
+            
+<p className="font-bold my-6  text-4xl ">Healthy and sustainable living</p>
+<p className="font-normal my-6  text-lg ">
+We’re committed to creating products and services that inspire and support people to make positive lifestyle changes, consume in more circular ways, and live better everyday lives.
+</p>
+<a className="text-blue font-normal  block text-xl hover:underline ">
+What a healthy and sustainable life at home means</a>
+        </div>
+</div>
+</div>
+    </div>
+</div>
+
+{/* ******************************** */}
+
+
+         <p className="my-20 font-light   text-4xl">
                   In FY21, we phased out all non-rechargeable alkaline batteries and replaced them with our new LADDA rechargeable batteries. This move enables customers to significantly reduce waste while also saving money in the long run.</p>
          <Transforming />
          <div>
@@ -20,7 +52,6 @@ function Sustainability(){
 
          </div>
          <Building />
-         </div>
             
         </>
     )
