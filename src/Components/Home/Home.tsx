@@ -14,22 +14,40 @@ function Home(){
 <div className="flex flex-col xl:flex-row lg:flex-row md:flex-row justify-between gap-6  lg:h-500 md:h-500">
 <div className="xl:w-2/3 lg:w-2/3 md:w-2/3 lg:h-500 relative">
 <img src={images['Home/Linus_startpage.png']} className="rounded-lg w-full h-full  "alt="" loading="lazy"/>
-<div className="text-white py-6 absolute lg:top-96 top-80">
+<div className="text-white py-6 absolute lg:top-96 top-80 px-2">
 <p className="font-bold">Inspiring homes</p>
 <p className="font-bold text-3xl">A student starting small in the city</p>
 </div>
 </div>
 <div className="xl:w-1/3  lg:w-1/3 md:w-1/3 w-full flex flex-col text-black ">
     
-<div className="flex   justify-center border-b-1 rounded-t-lg border-borderColor items-center bg-yellow text-2xl font-extrabold  h-96">Go shopping</div>
+<div className="flex   justify-center border-b-1 rounded-t-lg border-borderColor items-center bg-yellow text-2xl font-extrabold  h-96">
+    Go shopping
+    <div>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mt-1 hover:ml-5 ">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+</svg>
+
+    </div>
+    </div>
 
 
 <div className="flex justify-center   rounded-b-lg  items-center bg-yellow   h-44">
-<span className="">
+
     <span aria-hidden="true" className="">Online store: 
-    <span className="font-bold px-1">IKEA International Sales</span> 
+   
     </span> 
-   </span>
+    <div className="flex   justify-center">
+    <span className="font-bold px-1 ">
+        IKEA International Sales</span> 
+        <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+</svg>
+
+        </div>
+    </div>
+ 
 </div>
 </div>
 </div>

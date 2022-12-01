@@ -37,3 +37,10 @@
     transform: translateY(0px);
   }
 }
+
+.HomeRightIcon{
+
+    transition: margin-left 0.5s ease-out;
+    transform: rotate(180deg);
+
+}

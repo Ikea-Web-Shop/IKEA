@@ -1,5 +1,5 @@
 
-export { default as HomeMainLayout } from "./HomeMainLayout";
+export { default as HomeLayout } from "./HomeLayout";
 export { default as MainLayout } from "./MainLayout";
 
 

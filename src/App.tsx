@@ -18,7 +18,7 @@ import {
 } from './Pages/Main';
 
 import {MainLayout ,
-HomeMainLayout,} from './Layouts/MainLayout'
+HomeLayout,} from './Layouts/MainLayout'
 import {UserLayout,UserPanel} from "./Layouts/UserLayout"
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
 					
 
 					<Route path='/museum' element={<Museum />} />
-						<Route element={<HomeMainLayout />}>
+						<Route element={<HomeLayout />}>
 							<Route path='/' element={<Home />} />
 						</Route>
 						<Route element={<UserLayout />}>
