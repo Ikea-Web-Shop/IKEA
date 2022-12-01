@@ -31,7 +31,7 @@ export const Cart=(props:info)=>{
 							</button>
 						</div>
 					</div>
-					<div className='w-full sm:w-1/2 sm:pl-8 xl:pl-20 mt-6 sm:mt-0 mb-64'>
+					<div className='w-full sm:w-1/2 sm:pl-8 xl:pl-20 mt-6 sm:mt-0 '>
 						<img
 							className='w-full'
 							src='https://gbl-sc9u2-prd-cdn.azureedge.net/-/media/aboutikea/images/life-at-home/five-democratic-design-principles-ai05-04-px104231-ikea-l.jpg?rev=e178460d10c54b7d8fc61384f0e083e2'
