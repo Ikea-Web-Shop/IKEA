@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 import images from "src/Importer/Importer";
-
+import MediaContacts from "./MediaContacts/MediaContacts";
 import { ScreenCart } from "../ScreenCart/ScreenCart";
 import {cart1 , cart2 ,ArrowCartData} from "./data"
 import { NewsroomArrowCart } from "./NewsroomArrowCart/NewsroomArrowCart";
@@ -77,7 +77,7 @@ Show more
 {/* ******************************************* */}
 
 
-
+<MediaContacts />
 
 
          

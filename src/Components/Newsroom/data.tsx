@@ -186,4 +186,29 @@ export const ArrowCartData=[
       
       },
   ]
+
+
+  export const MediaContactsData=[
+    {
+        id:1,
+        title:"Industry",
+        text:"If you have any question regarding how we produce our products in the IKEA production capacities, please contact us here:",
+        email:"IKEA.industry.media@inter.ikea.com",
+        number:"",
+    },
+    {
+        id:2,
+        title:"IKEA Franchising",
+        text:"If you want to know more about the IKEA Brand, our people and sustainability agenda, our culture and values, the IKEA expansion and franchise system, please contact us here:",
+        email:"media.franchisor@inter.ikea.com",
+        number:"+31621240618",
+    },
+    {
+        id:3,
+        title:"Range and Supply",
+        text:"For questions regarding the IKEA range: how we design and develop our products, including the IKEA food offer, and questions regarding how we source and distribute them, please contact us here:",
+        email:"pressoffice.rangesupply@inter.ikea.com",
+        number:"+46732321300",
+    },
+  ]
   
