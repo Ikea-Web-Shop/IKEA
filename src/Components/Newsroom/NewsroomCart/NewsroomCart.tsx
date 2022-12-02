@@ -10,19 +10,19 @@ interface info {
  
    }
 
-export const ScreenCart=(props:info)=>{
+export const NewsroomCart=(props:info)=>{
     return (
         <>
       
 <p className="font-bold my-8  text-4xl ">{props.title}</p>
 	
-					<div className='flex    lg:flex-row md:flex-row flex-col  '>
+					<div className='flex     flex-col  '>
 						<img
 							src={props.src}
-							alt='ScreenCart'
-							className='lg:w-2/3 '
+							alt='NewsroomCart'
+							className='w-full '
 						/>
-						<div className='p-6 bg-gray lg:w-1/3'>
+						<div className='p-6 bg-gray w-full'>
 						<div className="flex my-4">
                                 <p className="text-[14px]">{props.subject}</p>
                                 <p className="pl-4 text-[14px]">{props.data}</p>
