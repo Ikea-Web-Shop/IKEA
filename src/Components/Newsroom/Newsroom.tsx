@@ -1,15 +1,17 @@
 
 import { useState } from "react";
-import {NewsroomData } from "../../Services/Utils/Data/data"
+
 import images from "src/Importer/Importer";
-import NewsroomTopics from "./NewsroomTopics/NewsroomTopics";
+
 import { ScreenCart } from "../ScreenCart/ScreenCart";
-import {cart1 , cart2} from "./data"
+import {cart1 , cart2 ,ArrowCartData} from "./data"
+import { NewsroomArrowCart } from "./NewsroomArrowCart/NewsroomArrowCart";
 import { NewsroomCart } from "./NewsroomCart/NewsroomCart";
 function Newsroom(){
  
   const [cartA] = useState(cart1);
   const [cartB] = useState(cart2);
+  const [arrow]=useState(ArrowCartData)
 
 
     return (
@@ -53,9 +55,32 @@ function Newsroom(){
                 ))}
             
             </div>
+{/* ************************************* */}
+
+<div className="flex justify-center items-center my-8">
+<button className="bg-blue text-white font-bold flex justify-center items-center px-6 py-3 rounded-full">
+Show more
+</button>
+</div>
+
+<div className="grid  lg:grid-cols-3 grid-cols-1 gap-5 lg:grid-rows-1 grid-rows-3  my-10 ">
+            
+            {arrow.map((item) => (
+            <div><NewsroomArrowCart 
+            title={item.title} 
+            src={item.image}
+            /></div>
+            
+                ))}
+            
+            </div>
+{/* ******************************************* */}
 
 
-          <NewsroomTopics />
+
+
+
+         
              
 
         </>

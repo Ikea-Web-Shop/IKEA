@@ -158,3 +158,32 @@ export const cart2=[
 						
     }
 ]
+
+
+
+
+export const ArrowCartData=[
+    {
+      id: 1,
+      title: "Images and videos",
+      image: `${images['About/3.jpg']}`,
+  
+    
+    },
+    {
+   
+        id: 2,
+        title: "Spokespersons ",
+        image: `${images['About/4.jpg']}`,
+    
+      
+      },
+      {
+        id: 3,
+        title: "Publications",
+        image: `${images['Behind/ScreenCart4.png']} `,
+    
+      
+      },
+  ]
+  
