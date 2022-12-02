@@ -16,7 +16,7 @@ function Box(props:info){
     return(
         <>
         <div className="hover:bg-gray ">
-<div className="h-1 w-full bg-black text-black "></div>
+<div className="h-[1px] w-full bg-black text-black "></div>
 
 <p className="py-4 lg:px-10 px-8 text-xl" onClick={()=>setShowBox(true)}>{props.quastion}</p>
 {showBox ?

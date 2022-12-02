@@ -4,13 +4,13 @@ import  images from "../../../Importer/Importer"
 function Museum(){
     return (
         <>
-      <header className="w-screen p-3 bg-white shadow fixed flex justify-between">
+      <header className="w-screen p-3 bg-white shadow  flex justify-between">
       <div className="">
-    <img src={images['Navbar/logo.png']} alt="IKEA logo" width="60" height="8"  className="w-24 -mt-1"/>
+ <Link to="/">   <img src={images['Navbar/logo.png']} alt="IKEA logo" width="60" height="8"  className="w-24 -mt-1"/></Link>
   <p className="font-normal   text-xl">Museum</p>
            
             </div>
-            <div className="flex">
+            <div className="flex pr-3">
            <p>EN</p>
            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />

@@ -36,7 +36,7 @@ answer={item.answer}
 link={item.link}
            />
             ))}
-<div className="h-1 w-full bg-black text-black "></div>
+<div className="h-[1px] w-full bg-black text-black "></div>
 
 
 <p className="font-bold my-16  text-4xl">Did you find what you were looking for? If not, try these other websites:</p>
@@ -47,7 +47,7 @@ answer={item.answer}
 link={item.link}
            />
             ))}
-<div className="h-1 w-full bg-black text-black "></div>
+<div className="h-[1px] w-full bg-black text-black "></div>
 </div>
 </div>
 </div>

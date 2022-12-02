@@ -36,7 +36,7 @@ function Statement (){
 <p >Type of information </p>
 <p >Source, purpose and legal basis </p>
 </div>
-<div className="h-1 mt-1 w-full bg-black text-black "></div>
+<div className="h-[1px] mt-1 w-full bg-black text-black "></div>
 
 <div className="flex p-2">
    <p>Correspondence</p>
@@ -62,7 +62,7 @@ function Statement (){
 <p >Type  </p>
 <p >Description and companys </p>
 </div>
-<div className="h-1 mt-1 w-full bg-black text-black "></div>
+<div className="h-[1px] mt-1 w-full bg-black text-black "></div>
 
 <div className="flex mt-4 p-2">
    <p className="underline">IKEA:</p>

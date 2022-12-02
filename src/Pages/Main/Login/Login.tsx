@@ -1,11 +1,12 @@
 
 import images from "../../../Importer/Importer";
 import { Link } from "react-router-dom"
-
+import "./style.css"
 function Login(){
     return (
         <>
-<div className="px-10 py-8">
+<div className="modal">
+<div className="px-10 py-8 modal-content animate">
 
 <img src={images['Navbar/logo.png']} alt="IKEA logo" width="150" height="4" loading="lazy" />
 <a className=" "><Link to="/">Home</Link></a>
@@ -27,6 +28,7 @@ function Login(){
 
 <a className="font-normal   text-xl text-blue" href="password">Terms of Use and of Cookies</a>
 
+</div>
 </div>
         </>
     )
