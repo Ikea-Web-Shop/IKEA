@@ -1,5 +1,5 @@
 
-import {ExploreCart} from "../../data"
+import {ExploreCart} from "../data"
 import { useState } from "react";
 
 import { Cart } from "src/Components/Cart/Cart";

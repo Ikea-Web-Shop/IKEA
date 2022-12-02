@@ -1,6 +1,6 @@
 import {Newsroom as NewsroomPage} from "../../../Components"
 import {CustomBreadcrumbs} from "../../../Components"
-import NewsroomTopics from "src/Components/Newsroom/NewsroomTopics/NewsroomTopics";
+import NewsroomTopics from "src/Components/Newsroom/Components/NewsroomTopics";
 function Newsroom(){
     return (
         <>

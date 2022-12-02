@@ -1,6 +1,6 @@
 
 import SimpleText from "../SimpleText/SimpleText";
-import PrivacyList from "./PrivacyList/PrivacyList";
+import PrivacyList from "./Components/PrivacyList";
 function Statement (){
     return(
 <>

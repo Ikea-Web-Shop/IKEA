@@ -66,8 +66,6 @@ function Drawer(){
 <div className="py-6 bg-white shadow overflow-x-hidden absolute w-5/6   h-full ">
    
    <div className="flex  flex-col ">
- 
-
    {item.map((item) => (
       <div>
                <a href={item.route} className="px-3 hover:underline font-semibold  text-2xl">  {item.name}</a>

@@ -1,7 +1,7 @@
-import Ambitions from "./Components/Ambitions/Ambitions";
-import Report from "./Components/Report/Report";
-import Transforming from "./Components/Transforming/Transforming";
-import Building from "./Components/Building/Building";
+import Ambitions from "./Components/Ambitions";
+import Report from "./Components/Report";
+import Transforming from "./Components/Transforming";
+import Building from "./Components/Building";
 import images from "src/Importer/Importer";
 function Sustainability(){
     return (

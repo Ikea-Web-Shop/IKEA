@@ -1,6 +1,6 @@
 import { useState } from "react";
-import BehindTopics from "./BehindTopics/BehindTopics";
-import BehindIcons from "./BehindIcons/BehindIcons";
+import BehindTopics from "./Components/BehindTopics";
+import BehindIcons from "./Components/BehindIcons";
 import { ScreenCart } from "../ScreenCart/ScreenCart";
 import { Cart } from "../Cart/Cart";
 import {Cart1 , Cart2 , Cart3 , ArrowCartData} from "./data"

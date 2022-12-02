@@ -1,4 +1,4 @@
-import Explore from "./Components/Explore/Explore";
+import Explore from "./Components/Explore";
 import images from 'src/Importer/Importer';
 
 function WorkWithUs(){

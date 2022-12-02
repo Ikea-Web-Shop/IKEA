@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import BehindIcons from "../Behind/BehindIcons/BehindIcons";
+import BehindIcons from "../Behind/Components/BehindIcons";
 import AboutTopics from "./AboutTopics";
 import { Cart1,Cart2 } from "./data"
 import { Cart } from "../Cart/Cart";

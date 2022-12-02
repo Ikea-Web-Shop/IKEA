@@ -2,11 +2,11 @@
 import { useState } from "react";
 
 import images from "src/Importer/Importer";
-import MediaContacts from "./MediaContacts/MediaContacts";
+import MediaContacts from "./Components/MediaContacts";
 import { ScreenCart } from "../ScreenCart/ScreenCart";
 import {cart1 , cart2 ,ArrowCartData} from "./data"
-import { NewsroomArrowCart } from "./NewsroomArrowCart/NewsroomArrowCart";
-import { NewsroomCart } from "./NewsroomCart/NewsroomCart";
+import { NewsroomArrowCart } from "./Components/NewsroomArrowCart";
+import { NewsroomCart } from "./Components/NewsroomCart";
 function Newsroom(){
  
   const [cartA] = useState(cart1);
