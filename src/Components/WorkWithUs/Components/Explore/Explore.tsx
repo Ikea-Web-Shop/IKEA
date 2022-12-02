@@ -9,10 +9,11 @@ function Explore (){
     return (
         <>
 <p className="font-bold my-12  text-xl">Explore more about the IKEA business</p>
-<div className="flex justify-between w-full  flex-col lg:flex-row md:flex-row">
+<div className="grid  lg:grid-cols-3 grid-cols-1 gap-5 lg:grid-rows-1 grid-rows-3  my-10">
             
 {item.map((item) => (
-<div><Cart 
+<div className="lg:col-span-1  ">
+    <Cart 
 title={item.title} 
 src={item.image}
 /></div>

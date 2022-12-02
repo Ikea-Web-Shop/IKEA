@@ -22,7 +22,7 @@ function WorkWithUs(){
 
         {/* -------------------------------------For suppliers */}
         <div className="w-screen bg-gray p-10">
-            <div className="container flex justify-around flex-col lg:flex-row md:flex-row">
+            <div className="lg:container flex justify-around flex-col lg:flex-row md:flex-row">
                 <div className="flex flex-col lg:w-2/6 md:w-2/6">
                     <img src={images['WorkWithUs/blur.jpg']} alt="" />
                     <a className="hover:underline font-bold text-2xl  mt-6">Work at IKEA</a>

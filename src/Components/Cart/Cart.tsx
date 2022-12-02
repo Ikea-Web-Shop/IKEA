@@ -22,7 +22,7 @@ export const Cart=(props:info)=>{
 							className='w-full'
 						/>
 						<div className='p-6 bg-gray '>
-							<h2 className='text-2xl	font-bold mb-6'>{props.title}</h2>
+							<h2 className='text-2xl	font-bold mb-6 hover:underline'>{props.title}</h2>
 						
 							<button className='bg-black w-10 h-10 rounded-full flex items-center justify-center mt-12'>
 								<svg className='fill-white w-6 h-6' viewBox='0 0 24 24'>
