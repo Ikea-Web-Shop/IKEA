@@ -1,12 +1,13 @@
+import { Cart } from "src/Components/Cart/Cart";
 import images from "src/Importer/Importer";
 
 function Building(){
     return (
         <>
    
-<div className="flex  mt-20 mb-10" >
+<div className="grid lg:grid-cols-2 grid-cols-1 grid-rows-2 lg:grid-rows-1 gap-5  mt-20 mb-10 lg:container" >
      
-<div className=" w-2/6  -mt-10 ">
+<div className="   -mt-10 lg:col-span-1">
 <p className="font-bold mt-12  text-4xl ">Building a better business with IWAY</p>
 <p className="font-normal mt-12  text-base ">
    
@@ -15,9 +16,10 @@ IWAY is the IKEA way for responsibly procuring products, services, materials, an
 
 </div>
   
-<img src={images['Sustainability/sunlight.jpg']} alt="IKEA sustainability ambitions for 2030"  className="w-2/6" />
+<div className="lg:col-span-1">
 
-       
+    <Cart title="Creating a sustainable IKEA value chain with IWAY" src={images['Sustainability/4.jpg']} />
+</div>
 </div>
 
   

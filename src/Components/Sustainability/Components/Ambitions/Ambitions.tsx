@@ -22,7 +22,7 @@ function Ambitions(){
 </div>
 
 </div>
-<a className="text-blue font-normal   text-xl hover:underline lg:ml-80 lg:pl-30 ">
+<a className="text-blue font-normal   text-xl hover:underline lg:ml-[32rem] lg:pl-30 ">
 IKEA Sustainability strategy (PDF, 5.3MB)</a>
         </div>
         </>
