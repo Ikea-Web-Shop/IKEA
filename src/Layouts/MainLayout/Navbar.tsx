@@ -7,7 +7,7 @@ import {navbarItems} from "../../Services/Utils/Data/data"
 
 const Navbar = () => {
   const [item] = useState(navbarItems);
- 
+  const [showSearchModal,setShowSearchModal]=useState(false)
 
   return (
    
@@ -21,10 +21,36 @@ const Navbar = () => {
   <nav className="  Space evenly flex-initial w-screen hidden lg:flex md:flex">
 
 
-  {item.map((item) => (
+
+{item.map((item) => (
           <a href={item.route} className="px-3 hover:underline font-semibold text-slate-900 ">  {item.name}</a>
           ))}
-          <svg aria-hidden="true" className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+          
+  
+  {!showSearchModal ? 
+          <svg aria-hidden="true" className="w-6 h-6 text-gray-500 dark:text-gray-400"  onClick={() => setShowSearchModal(true)} fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+          :<></>
+  }
+          {showSearchModal
+            ? 
+         
+        
+            <div className="flex ">
+              <input type="text" name="search" id="search" className="border w-full"/>
+              <div className="border  p-3 bg-blue -ml-1">
+       <svg aria-hidden="true" 
+       className="w-6 h-6 bg-blue text-white" 
+       fill="currentColor" 
+       viewBox="0 0 20 20" 
+       onClick={() => setShowSearchModal(true)}
+       xmlns="http://www.w3.org/2000/svg">
+         <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+      
+       </div>
+            </div>
+            
+            :<></>
+          }
           </nav>
           <a  href="/"className=" flex-initial w-40 px-3 hover:underline font-semibold text-slate-900 ">Shop at IKEA</a>
           </div>
@@ -34,7 +60,7 @@ const Navbar = () => {
 
 
              <div className="lg:hidden block">
-    <div className="flex justify-end ">
+    <div className="flex justify-end items-center">
   
      
   <img src={images['Navbar/logo.png']} alt="IKEA logo" width="60" height="150" loading="lazy" className=" w-24 mr-[30%]"/>
@@ -42,7 +68,7 @@ const Navbar = () => {
 
 
   
-          <svg aria-hidden="true" className="w-5 h-5 text-gray-500 dark:text-gray-400 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+          <svg aria-hidden="true" className="w-10 h-10 text-gray-500 dark:text-gray-400 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
          
         
           </div>

@@ -21,7 +21,7 @@ function Drawer(){
                 onClick={() => setShowModal(true)}
               >
                 <svg
-                  className="h-8 w-8 text-black"
+                  className="h-10 w-10 text-black"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -38,7 +38,7 @@ function Drawer(){
             ) : (
               <></>
             )}
-            {showModal ? (
+            {(!showSearchModal && showModal) ? (
               <button
                 className="Homeclose z-50"
                 type="button"
@@ -50,7 +50,31 @@ function Drawer(){
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-8 h-8 "
+                  className="w-10 h-10 "
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            ) : (
+              <></>
+            )}
+             {showSearchModal ? (
+              <button
+                className="Homeclose z-50"
+                type="button"
+                onClick={() => setShowSearchModal(false)}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-10 h-10 "
                 >
                   <path
                     strokeLinecap="round"
@@ -72,7 +96,7 @@ function Drawer(){
   <img src={images['Navbar/logo.png']} alt="IKEA logo"  className="w-24  "/>
  
  <svg aria-hidden="true" 
- className="w-8 h-8" 
+ className="w-10 h-10" 
  fill="currentColor" 
  viewBox="0 0 20 20" 
  onClick={() => setShowSearchModal(true)}
