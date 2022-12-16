@@ -15,25 +15,21 @@
     "web-vitals": "^2.1.4",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
-    "@mui/icons-material": "^5.8.0",
-    "@mui/material": "^5.8.1",
-    "@mui/x-data-grid": "^5.12.2",
-    "@mui/x-date-pickers": "^5.0.0-beta.0",
+    
     "@react-google-maps/api": "^2.12.0",
     "@types/googlemaps": "^3.43.3",
     "@types/jest": "^27.5.1",
     "@types/node": "^16.11.36",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.5",
-    "chart.js": "^3.8.0",
+   
     "country-state-city": "^3.0.1",
-    "react-chartjs-2": "^4.2.0",
+    
     "react-google-maps": "^9.4.5",
-    "react-horizontal-datepicker": "^0.1.10",
-    "react-horizontal-strip-datepicker": "^3.0.2",
+  
     "react-intersection-observer": "^9.3.4",
     "react-router-dom": "^6.3.0",
-    "swiper": "^8.2.3",
+   
     "typescript": "^4.7.2"
   },
   "scripts": {

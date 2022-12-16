@@ -13,7 +13,7 @@ function Home(){
 
 <div className="flex flex-col xl:flex-row lg:flex-row md:flex-row justify-between gap-6  lg:h-500 md:h-500">
 <div className="xl:w-2/3 lg:w-2/3 md:w-2/3 lg:h-500 relative">
-<img src={images['Home/Linus_startpage.png']} className="rounded-lg w-full h-full  "alt="" loading="lazy"/>
+<img src={images['Home/Linus_Malmo_Living_Room.png']} className="rounded-lg w-full h-full  "alt="" loading="lazy"/>
 <div className="text-white py-6 absolute lg:top-96 top-80 px-2">
 <p className="font-bold">Inspiring homes</p>
 <p className="font-bold text-3xl">A student starting small in the city</p>

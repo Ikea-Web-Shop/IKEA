@@ -16,11 +16,16 @@ import {
 	Statement,
 	NotFound
 } from './Pages/Main';
-
+import {
+	CommentsTable,
+	PostsTable,
+	UsersTable
+} from './Components/Panel/index'
+import AdminLayout from './Layouts/AdminLayout/AdminLayout';
 import {MainLayout ,
 HomeLayout,} from './Layouts/MainLayout'
 import {UserLayout,UserPanel} from "./Layouts/UserLayout"
-
+import VerticalTabs from './Components/Panel/VerticalTabs';
 function App() {
 	return (
 		<>
@@ -29,10 +34,9 @@ function App() {
 					<Routes>
 					<Route path='*' element={<NotFound />} />
 					<Route path='/login' element={<Login />} />
-				
-					
-
 					<Route path='/museum' element={<Museum />} />
+				
+
 						<Route element={<HomeLayout />}>
 							<Route path='/' element={<Home />} />
 						</Route>
@@ -41,21 +45,20 @@ function App() {
 						</Route>
 						<Route element={<MainLayout />}>
 							<Route path='/about' element={<About />} />
-							
-							
 							<Route path='/behind' element={<Behind />} />
 							<Route path="/international-sales" element={<InternationalSales />} />
 							<Route path='/life-at-home' element={<LifeAtHome />} />
-						
 							<Route path='/work-with-us' element={<WorkWithUs />} />
 							<Route path='/sustainability' element={<Sustainability />} />
 							<Route path='/contact' element={<Contact />} />
 							<Route path="/newsroom" element={<Newsroom />} />
 							<Route path='/statement' element={<Statement />} />
 
+          </Route>
 
+		  <Route element={<AdminLayout />}>
+						
 
-          
           </Route>
         </Routes>
         </ScrollToTop>
